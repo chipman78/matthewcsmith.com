@@ -29,14 +29,7 @@
 <h1>Find Better</h1>
 <h2>Search for longer lasting, quality products</h2>
 
-<form action="http://www.amazon.com/exec/obidos/external-search" method="get">
-  <input type="hidden" name="mode" value="blended">
-  <input type="hidden" name="tag" value="insert associate tag">
-  Search Amazon:<br>
-  <input type="text" name="keyword" size="10" value="">
-  <input type="submit" value="Go">
-</form>
-
+  <?php echo '<p>Hello World!!!</p>'; ?> 
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
