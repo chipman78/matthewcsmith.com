@@ -88,9 +88,43 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+html {
+  background-image: linear-gradient(LightSeaGreen, White);
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
 body {
-  margin:  1em;
+  height: 100%;
+  margin:  0 1em;
+  line-height: 2em;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5em;
+  line-height: 1em;
+  margin: 2em 0 20%;
+  padding: 0;
+}
+h2 {
+  text-indent: -9999em;
+  overflow: hidden;
+  display: block;
+  height: 0;
+  margin: 0;
+}
+#search_text {
+  width:  78%;
+  line-height: 1em;
+  padding: .5em;
+}
+#search_submit {
+  border: 2px outset orange;
+  width:  15%;
+  line-height: 2em;
+  background: darkorange;
 }
 
 
